@@ -13,6 +13,8 @@
 &#xD;
 Configuration Instructions: https://github.com/JPDVM2014/radicale</Overview>
   <Category>Productivity:</Category>
+  <Screenshot>https://github.com/JPDVM2014/radicale/blob/main/radicale-login.png?raw=true</Screenshot>
+  <Screenshot>https://github.com/JPDVM2014/radicale/blob/main/radicale-webui-screen.png?raw=true</Screenshot>
   <WebUI>http://[IP]:[PORT:5232]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/JPDVM2014/radicale/blob/main/radicale-icon.jpg?raw=true</Icon>
