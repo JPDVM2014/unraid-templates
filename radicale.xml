@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>radicale</Name>
+  <Repository>tomsquest/docker-radicale</Repository>
+  <Registry>https://hub.docker.com/r/tomsquest/docker-radicale/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-radicale/</Support>
+  <Project>https://radicale.org/v3.html</Project>
+  <Overview>Docker image for Radicale, a small but powerful CalDAV (calendars, to-do lists) and CardDAV (contacts) server. Template is based on tomsquest's image.&#xD;
+&#xD;
+Configuration Instructions: https://github.com/JPDVM2014/radicale</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:5232]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/JPDVM2014/radicale/blob/main/radicale-icon.jpg?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1650851935</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Docker image for Radicale, a small but powerful CalDAV (calendars, to-do lists) and CardDAV (contacts) server. Template is based on tomsquest's image.&#xD;
+&#xD;
+Configuration Instructions: https://github.com/JPDVM2014/radicale</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5232</HostPort>
+        <ContainerPort>5232</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="AppData" Target="/config" Default="/mnt/user/appdata/docker-radicale/" Mode="ro" Description="Container Path: /config&#13;&#10;" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Data" Target="/data" Default="/mnt/user/docker-radicale" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="WebUI" Target="5232" Default="5232" Mode="tcp" Description="Container Port: 5232" Type="Port" Display="always" Required="true" Mask="false">5232</Config>
+</Container>
