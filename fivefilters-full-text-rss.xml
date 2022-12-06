@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>fivefilters-full-text-rss</Name>
+  <Repository>heussd/fivefilters-full-text-rss</Repository>
+  <Registry>https://hub.docker.com/r/heussd/fivefilters-full-text-rss/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://help.fivefilters.org/full-text-rss/</Project>
+  <Overview>Retrieve full text articles and create an RSS feed.&#xD;
+&#xD;
+</Overview>
+  <Category>Cloud: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/JPDVM2014/fivefilters-full-text-rss/blob/main/rss-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1670363844</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">50000</Config>
+</Container>
