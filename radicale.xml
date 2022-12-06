@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-radicale/</Support>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://radicale.org/v3.html</Project>
   <Overview>Docker image for Radicale, a small but powerful CalDAV (calendars, to-do lists) and CardDAV (contacts) server. Template is based on tomsquest's image.&#xD;
 &#xD;
