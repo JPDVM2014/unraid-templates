@@ -13,6 +13,7 @@
 &#xD;
 </Overview>
   <Category>Cloud: Tools:</Category>
+  <Screenshot>https://raw.githubusercontent.com/JPDVM2014/fivefilters-full-text-rss/main/fivefilters-rss-screenshot.png</Screenshot>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/JPDVM2014/fivefilters-full-text-rss/c0288049d62cddfd22dedb5290cbb6d3c8555a59/rss-logo.png</Icon>
