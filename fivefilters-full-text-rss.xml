@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://help.fivefilters.org/full-text-rss/</Project>
   <Overview>Retrieve full text articles and create an RSS feed.&#xD;
 &#xD;
@@ -15,11 +15,11 @@
   <Category>Cloud: Tools:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/JPDVM2014/fivefilters-full-text-rss/blob/main/rss-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/fivefilters-full-text-rss/c0288049d62cddfd22dedb5290cbb6d3c8555a59/rss-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1670363844</DateInstalled>
+  <DateInstalled>1670364345</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
