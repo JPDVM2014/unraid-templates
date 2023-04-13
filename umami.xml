@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>umami</Name>
   <Repository>docker.umami.dev/umami-software/umami:postgresql-latest</Repository>
-  <Registry/>
+  <Registry>https://github.com/umami-software/umami/pkgs/container/umami</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
