@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>umami</Name>
+  <Repository>docker.umami.dev/umami-software/umami:postgresql-latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://umami.is/docs/getting-started</Project>
+  <Overview>Umami is a simple, fast, privacy-focused alternative to Google Analytics.&#xD;
+&#xD;
+Requires a separate Postgresql container and external access via reverse proxy.</Overview>
+  <Category>Network:Other</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/JPDVM2014/umami/blob/main/umami_icon.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1681362726</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 2" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgresql://umami:umami@db:5432/umami" Mode="" Description="Example: postgresql://username:password@[ip-address]:[port]/[database_name]" Type="Variable" Display="always" Required="true" Mask="false">postgresql://root:password@192.168.1.10:5432/umami</Config>
+  <Config Name=" DATABASE_TYPE" Target=" DATABASE_TYPE" Default="postgresql" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">postgresql</Config>
+  <Config Name="HASH_SALT" Target="HASH_SALT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">Change to a random string!</Config>
+</Container>
