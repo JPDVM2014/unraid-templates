@@ -22,8 +22,8 @@ Configuration Instructions: https://github.com/JPDVM2014/radicale</Overview>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1650851935</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Description>Docker image for Radicale, a small but powerful CalDAV (calendars, to-do lists) and CardDAV (contacts) server. Template is based on tomsquest's image.&#xD;
 &#xD;
 Configuration Instructions: https://github.com/JPDVM2014/radicale</Description>
