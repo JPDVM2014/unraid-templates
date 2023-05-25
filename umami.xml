@@ -20,8 +20,8 @@ Requires a separate Postgresql container and external access via reverse proxy.<
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1681362726</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="Host Port 2" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgresql://umami:umami@db:5432/umami" Mode="" Description="Example: postgresql://username:password@[ip-address]:[port]/[database_name]" Type="Variable" Display="always" Required="true" Mask="false">postgresql://root:password@192.168.1.10:5432/umami</Config>
