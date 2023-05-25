@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>kapowarr</Name>
+  <Repository>mrcas/kapowarr:latest</Repository>
+  <Registry>https://hub.docker.com/r/mrcas/kapowarr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://github.com/Casvt/Kapowarr</Project>
+  <Overview>Kapowarr allows you to build a digital library of comics. You can add volumes, map them to a folder and start managing! Download issues of the volume (or TPB's), rename them and move them. The whole process is automised and is all customisable in the settings.</Overview>
+  <Category>Downloaders: MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:5656]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/kapowarr/main/Screenshot_20230524_213057_Firefox%20Nightly_x4.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1684980726</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Downloads" Target="/app/temp_downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/kapowarr-downloads/</Config>
+  <Config Name="Completed" Target="/content" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/comics/</Config>
+  <Config Name="Database" Target="/app/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/kapowarr-db</Config>
+  <Config Name="WebUI" Target="5656" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5656</Config>
+</Container>
