@@ -21,8 +21,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1670364345</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">50000</Config>
 </Container>
