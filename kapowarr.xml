@@ -25,4 +25,6 @@
   <Config Name="Completed" Target="/content" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/comics/</Config>
   <Config Name="Database" Target="/app/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/kapowarr-db</Config>
   <Config Name="WebUI" Target="5656" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5656</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
 </Container>
