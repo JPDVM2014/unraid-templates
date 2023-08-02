@@ -27,4 +27,6 @@ Requires a separate Postgresql container and external access via reverse proxy.<
   <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgresql://umami:umami@db:5432/umami" Mode="" Description="Example: postgresql://username:password@[ip-address]:[port]/[database_name]" Type="Variable" Display="always" Required="true" Mask="false">postgresql://root:password@192.168.1.10:5432/umami</Config>
   <Config Name=" DATABASE_TYPE" Target=" DATABASE_TYPE" Default="postgresql" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">postgresql</Config>
   <Config Name="HASH_SALT" Target="HASH_SALT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">Change to a random string!</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config> 
+   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
 </Container>
