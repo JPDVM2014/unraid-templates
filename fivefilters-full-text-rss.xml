@@ -25,4 +25,6 @@
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">50000</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config> 
+   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
 </Container>
