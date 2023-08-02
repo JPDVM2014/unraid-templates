@@ -54,4 +54,6 @@ Configuration Instructions: https://github.com/JPDVM2014/radicale</Description>
   <Config Name="AppData" Target="/config" Default="/mnt/user/appdata/docker-radicale/" Mode="ro" Description="Container Path: /config&#13;&#10;" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Data" Target="/data" Default="/mnt/user/docker-radicale" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="WebUI" Target="5232" Default="5232" Mode="tcp" Description="Container Port: 5232" Type="Port" Display="always" Required="true" Mask="false">5232</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config> 
+   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
 </Container>
