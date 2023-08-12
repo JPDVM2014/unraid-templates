@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>reiverr</Name>
+  <Repository>ghcr.io/aleksilassila/reiverr:latest</Repository>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://github.com/aleksilassila/reiverr</Project>
+  <Overview>Reiverr is a project that aims to create a single UI for interacting with TMDB, Jellyfin, Radarr and Sonarr, as well as be an alternative to Overseerr.</Overview>
+  <Category>Downloaders: MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:9494]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/aleksilassila/reiverr/master/static/favicon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="9494" Default="9494" Mode="tcp" Description="WebUI" Type="Port" Display="always" Required="true" Mask="false">9494</Config>
+  <Config Name="PUBLIC_RADARR_API_KEY" Target="PUBLIC_RADARR_API_KEY" Default="" Mode="" Description="Radarr API Key" Type="Variable" Display="always" Required="false" Mask="false">yourapikeyhere</Config>
+  <Config Name="PUBLIC_RADARR_BASE_URL" Target="PUBLIC_RADARR_BASE_URL Default="http://127.0.0.1:7878" Mode="" Description="Radarr URL" Type="Variable" Display="always" Required="false" Mask="false">http://127.0.0.1:7878</Config>
+  <Config Name="PUBLIC_SONARR_API_KEY" Target="PUBLIC_SONARR_API_KEY" Default="" Mode="" Description="Sonarr API Key" Type="Variable" Display="always" Required="false" Mask="false">yourapikeyhere</Config>
+  <Config Name="PUBLIC_SONARR_BASE_URL" Target="PUBLIC_SONARR_BASE_URL" Default="http://127.0.0.1:8989" Mode="" Description="Sonarr URL" Type="Variable" Display="always" Required="false" Mask="false">http://127.0.0.1:8989</Config>
+  <Config Name="PUBLIC_JELLYFIN_API_KEY" Target="PUBLIC_JELLYFIN_API_KEY" Default="" Mode="" Description="Jellyfin API Key" Type="Variable" Display="always" Required="false" Mask="false">yourapikeyhere</Config>
+  <Config Name="PUBLIC_JELLYFIN_URL" Target="PUBLIC_JELLYFIN_URL" Default="http://127.0.0.1:8096" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://127.0.0.1:8096</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+</Container>
