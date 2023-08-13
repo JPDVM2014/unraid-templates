@@ -30,4 +30,5 @@
   <Config Name="Jellyfin URL" Target="PUBLIC_JELLYFIN_URL" Default="http://127.0.0.1:8096" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="AppData" Target="/config" Default="/mnt/user/appdata/reiverr/" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
