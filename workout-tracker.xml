@@ -9,7 +9,10 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/jovandeginste/workout-tracker/issues</Support>
   <Project>https://github.com/jovandeginste/workout-tracker</Project>
-  <Overview>A workout tracking web application for personal use (or family, friends), geared towards running and other GPX-based activities</Overview>
+  <Overview>A workout tracking web application for personal use (or family, friends), geared towards running and other GPX-based activities&#xD;
+&#xD;
+Default username: admin &#xD;
+Default password: admin &amp;lt;- Change this!!</Overview>
   <Category>Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/imTHAI/unraid-templates/master/13fladder/13fladder.xml</TemplateURL>
