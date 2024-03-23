@@ -7,17 +7,17 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/wasi-master/13ft/issues</Support>
-  <Project>https://github.com/wasi-master/13ft</Project>
+  <Support>https://github.com/jovandeginste/workout-tracker/issues</Support>
+  <Project>https://github.com/jovandeginste/workout-tracker</Project>
   <Overview>A workout tracking web application for personal use (or family, friends), geared towards running and other GPX-based activities</Overview>
-  <Category>Tools:Utilities</Category>
+  <Category>Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/imTHAI/unraid-templates/master/13fladder/13fladder.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/JPDVM2014/workout-tracker/main/running-negative.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1711162395</DateInstalled>
+  <DateInstalled>1711162540</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
