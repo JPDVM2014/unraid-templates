@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>workout-tracker</Name>
+  <Repository>ghcr.io/jovandeginste/workout-tracker:master</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/wasi-master/13ft/issues</Support>
+  <Project>https://github.com/wasi-master/13ft</Project>
+  <Overview>A workout tracking web application for personal use (or family, friends), geared towards running and other GPX-based activities</Overview>
+  <Category>Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/imTHAI/unraid-templates/master/13fladder/13fladder.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/workout-tracker/main/running-negative.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1711162395</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/workout-tracker" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/workout-tracker</Config>
+  <Config Name="Encryption Key" Target="WT_JWT_ENCRYPTION_KEY" Default="" Mode="" Description="CHANGE THIS VALUE!" Type="Variable" Display="always" Required="true" Mask="false">my-secret-key</Config>
+</Container>
