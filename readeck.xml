@@ -27,7 +27,7 @@ See it as a bookmark manager and a read later tool.</Overview>
   <Config Name="Host" Target="READECK_SERVER_HOST" Default="0.0.0.0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
   <Config Name="Server Prefix" Target="READECK_SERVER_PREFIX" Default="/" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/</Config>
   <Config Name="Internal Port" Target="READECK_SERVER_PORT" Default="8000" Mode="" Description="Must match container port from above" Type="Variable" Display="always" Required="false" Mask="false">8000</Config>
-  <Config Name="Allowed Hosts" Target="READECK_ALLOWED_HOSTS" Default="" Mode="" Description="Required for reverse proxy configuration." Type="Variable" Display="always" Required="false" Mask="false">readeck.example.com</Config>
-  <Config Name="Use X Forwarded" Target="READECK_USE_X_FORWARDED" Default="" Mode="" Description="Required for reverse proxy configuation." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Allowed Hosts" Target="READECK_ALLOWED_HOSTS" Default="" Mode="" Description="Required for reverse proxy configuration. Remove if only using locally." Type="Variable" Display="always" Required="false" Mask="false">readeck.example.com</Config>
+  <Config Name="Use X Forwarded" Target="READECK_USE_X_FORWARDED" Default="" Mode="" Description="Required for reverse proxy configuation. Remove if only using locally." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="Data" Target="/readeck" Default="/mnt/user/appdata/readeck" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/readeck</Config>
 </Container>
