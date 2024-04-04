@@ -15,7 +15,7 @@ Default username: admin &#xD;
 Default password: admin &amp;lt;- Change this!!</Overview>
   <Category>Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/imTHAI/unraid-templates/master/13fladder/13fladder.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/JPDVM2014/unraid-templates/main/workout-tracker.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/JPDVM2014/workout-tracker/main/running-negative.png</Icon>
   <ExtraParams/>
   <PostArgs/>
