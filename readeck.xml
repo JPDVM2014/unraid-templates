@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://codeberg.org/readeck/readeck/issues</Support>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://readeck.org/</Project>
   <Overview>Readeck is a simple web application that lets you save the precious readable content of web pages you like and want to keep forever.&#xD;
 See it as a bookmark manager and a read later tool.</Overview>
