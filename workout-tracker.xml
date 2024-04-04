@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/jovandeginste/workout-tracker/issues</Support>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://github.com/jovandeginste/workout-tracker</Project>
   <Overview>A workout tracking web application for personal use (or family, friends), geared towards running and other GPX-based activities&#xD;
 &#xD;
