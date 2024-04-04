@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>readeck</Name>
+  <Repository>codeberg.org/readeck/readeck:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://codeberg.org/readeck/readeck/issues</Support>
+  <Project>https://readeck.org/</Project>
+  <Overview>Readeck is a simple web application that lets you save the precious readable content of web pages you like and want to keep forever.&#xD;
+See it as a bookmark manager and a read later tool.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:8000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://codeberg.org/repo-avatars/05b1262f738e1417e82c889d8dcb6ba7167a2d266b28d620590f521e58e34a07</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="Port" Target="8000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
+  <Config Name="Log Level" Target="READECK_LOG_LEVEL" Default="info" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
+  <Config Name="Host" Target="READECK_SERVER_HOST" Default="0.0.0.0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
+  <Config Name="Server Prefix" Target="READECK_SERVER_PREFIX" Default="/" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/</Config>
+  <Config Name="Internal Port" Target="READECK_SERVER_PORT" Default="8000" Mode="" Description="Must match container port from above" Type="Variable" Display="always" Required="false" Mask="false">8000</Config>
+  <Config Name="Allowed Hosts" Target="READECK_ALLOWED_HOSTS" Default="" Mode="" Description="Required for reverse proxy configuration." Type="Variable" Display="always" Required="false" Mask="false">readeck.example.com</Config>
+  <Config Name="Use X Forwarded" Target="READECK_USE_X_FORWARDED" Default="" Mode="" Description="Required for reverse proxy configuation." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Data" Target="/readeck" Default="/mnt/user/appdata/readeck" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/readeck</Config>
+</Container>
