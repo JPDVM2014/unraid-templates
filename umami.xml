@@ -19,7 +19,7 @@ Requires a separate Postgresql container and external access via reverse proxy.<
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1681362726</DateInstalled>
+  <DateInstalled/>
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
