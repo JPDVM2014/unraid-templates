@@ -15,14 +15,14 @@ Default username: admin &#xD;
 Default password: admin &amp;lt;- Change this!!</Overview>
   <Category>Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/JPDVM2014/unraid-templates/main/workout-tracker.xml</TemplateURL>
+  <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/JPDVM2014/workout-tracker/main/running-negative.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1711162540</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DateInstalled/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="Data" Target="/data" Default="/mnt/user/appdata/workout-tracker" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/workout-tracker</Config>
