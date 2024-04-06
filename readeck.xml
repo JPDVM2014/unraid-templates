@@ -24,7 +24,7 @@ See it as a bookmark manager and a read later tool.</Overview>
   <Requires/>
   <Config Name="Port" Target="8000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
   <Config Name="Log Level" Target="READECK_LOG_LEVEL" Default="info" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
-  <Config Name="Host" Target="READECK_SERVER_HOST" Default="0.0.0.0" Mode="" Description="Leave as 0.0.0.0" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
+  <Config Name="Host" Target="READECK_SERVER_HOST" Default="0.0.0.0" Mode="" Description="Leave as 0.0.0.0 or set to container name (ex. readeck)" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
   <Config Name="Server Prefix" Target="READECK_SERVER_PREFIX" Default="/" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/</Config>
   <Config Name="Internal Port" Target="READECK_SERVER_PORT" Default="8000" Mode="" Description="Must match container port from above" Type="Variable" Display="always" Required="false" Mask="false">8000</Config>
   <Config Name="Allowed Hosts" Target="READECK_ALLOWED_HOSTS" Default="" Mode="" Description="Required for reverse proxy configuration. Remove if only using locally." Type="Variable" Display="always" Required="false" Mask="false">readeck.example.com</Config>
