@@ -17,12 +17,24 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1718668029</DateInstalled>
+  <DateInstalled>1718669163</DateInstalled>
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="Config" Target="/bookbounty/config" Default="/mnt/user/appdata/bookbuddy" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bookbuddy</Config>
-  <Config Name="Downloads" Target="/bookbounty/downloads" Default="/mnt/user/bookbounty" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/bookbounty</Config>
-  <Config Name="Localtime" Target="/etc/localtime" Default="" Mode="ro" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/etc/localtime</Config>
+  <Config Name="Downloads" Target="/bookbounty/downloads" Default="/mnt/user/bookbounty" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/bookbuddy/</Config>
   <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="Readarr URL" Target="readarr_adress" Default="http://192.168.1.2:8787" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.1.2:8787</Config>
+  <Config Name="Timeout" Target="request_timeout" Default="120" Mode="" Description="Timeout for requests in seconds." Type="Variable" Display="advanced" Required="false" Mask="false">120</Config>
+  <Config Name="Language" Target="selected_language" Default="English" Mode="" Description="Filter for download by language" Type="Variable" Display="advanced" Required="false" Mask="false">English</Config>
+  <Config Name="Preferred Extension Fiction" Target="preferred_extensions_fiction" Default=".epub, .mobi, .azw3, .djvu" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">.epub, .mobi, .azw3, .djvu</Config>
+  <Config Name="Localtime" Target="/etc/localtime" Default="" Mode="ro" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/etc/localtime</Config>
+  <Config Name="Library Scan on Completion" Target="library_scan_on_completion" Default="True" Mode="" Description="Whether to scan Readarr Library on completion (True or False)" Type="Variable" Display="advanced" Required="false" Mask="false">True</Config>
+  <Config Name="Search Type" Target="search_type" Default="fiction" Mode="" Description="Search type (fiction or non-fiction)" Type="Variable" Display="advanced" Required="false" Mask="false">fiction</Config>
+  <Config Name="Minimum Match Ratio" Target="minimum_match_ratio" Default="90" Mode="" Description="Minimum percentage for a match." Type="Variable" Display="advanced" Required="false" Mask="false">90</Config>
+  <Config Name="Sync Schedule" Target="sync_schedule" Default="" Mode="" Description="Scheduled times to run in comma separated values. (24hr)" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Sleep Interval" Target="sleep_interval" Default="0" Mode="" Description="Interval to sleep between downloads in seconds" Type="Variable" Display="advanced" Required="false" Mask="false">0</Config>
+  <Config Name="Libgen URL" Target="libgen_address" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">https://libgen.is</Config>
+  <Config Name="Selected Path Type" Target="selected_path_type" Default="file" Mode="" Description="Select download structure (file or folder)" Type="Variable" Display="advanced" Required="false" Mask="false">file</Config>
+  <Config Name="Preferred Extension Non-Fiction" Target="preferred_extensions_non_fiction" Default=".pdf, .epub, .mobi, .azw3, .djvu" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">.pdf, .epub, .mobi, .azw3, .djvu</Config>
 </Container>
