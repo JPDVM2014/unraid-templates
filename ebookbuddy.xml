@@ -9,7 +9,9 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/#comment-1400719</Support>
   <Project>https://github.com/TheWicklowWolf/eBookBuddy</Project>
-  <Overview>Web GUI for finding books that are similar to selected Readarr books.</Overview>
+  <Overview>Web GUI for finding books that are similar to selected Readarr books.&#xD;
+&#xD;
+NOTE: After first run, in the Unraid console, run "chown 99:100 /mnt/user/appdate/ebookbuddy" or whatever your appdata directory is. The container must run as root for the search to work, but the appdate folder must be owned by "nobody:users" to write to it.</Overview>
   <Category>Tools: MediaApp:Books</Category>
   <WebUI>http://[IP]:[PORT:5000]/</WebUI>
   <TemplateURL/>
