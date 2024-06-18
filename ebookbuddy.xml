@@ -14,7 +14,7 @@
   <WebUI>http://[IP]:[PORT:5000]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/JPDVM2014/icons/main/ebookbuddy.png</Icon>
-  <ExtraParams>--user 99:100</ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1718677163</DateInstalled>
@@ -25,6 +25,6 @@
   <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
   <Config Name="Readarr URL" Target="readarr_address" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">http://readarr:8787</Config>
   <Config Name="Readarr API Key" Target="readarr_api_key" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Readarr Root Folder Path" Target="root_folder_path" Default="/mnt/user/data/media/books" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/data/media/books</Config>
+  <Config Name="Readarr Root Folder Path" Target="root_folder_path" Default="/data/media/books" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/data/media/books</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="" Mode="ro" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/etc/localtime</Config>
 </Container>
