@@ -37,4 +37,6 @@
   <Config Name="Libgen URL" Target="libgen_address" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">https://libgen.is</Config>
   <Config Name="Selected Path Type" Target="selected_path_type" Default="file" Mode="" Description="Select download structure (file or folder)" Type="Variable" Display="advanced" Required="false" Mask="false">file</Config>
   <Config Name="Preferred Extension Non-Fiction" Target="preferred_extensions_non_fiction" Default=".pdf, .epub, .mobi, .azw3, .djvu" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">.pdf, .epub, .mobi, .azw3, .djvu</Config>
+  <Config Name="Host Key 2" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
+  <Config Name="Host Key 3" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
 </Container>
