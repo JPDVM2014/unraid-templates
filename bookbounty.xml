@@ -24,7 +24,7 @@
   <Config Name="Config" Target="/bookbounty/config" Default="/mnt/user/appdata/bookbounty" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bookbuddy</Config>
   <Config Name="Downloads" Target="/bookbounty/downloads" Default="/mnt/user/bookbounty" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/bookbuddy/</Config>
   <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
-  <Config Name="Readarr URL" Target="readarr_adress" Default="http://192.168.1.2:8787" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.1.2:8787</Config>
+  <Config Name="Readarr URL" Target="readarr_address" Default="http://192.168.1.2:8787" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.1.2:8787</Config>
   <Config Name="Timeout" Target="request_timeout" Default="120" Mode="" Description="Timeout for requests in seconds." Type="Variable" Display="advanced" Required="false" Mask="false">120</Config>
   <Config Name="Language" Target="selected_language" Default="English" Mode="" Description="Filter for download by language" Type="Variable" Display="advanced" Required="false" Mask="false">English</Config>
   <Config Name="Preferred Extension Fiction" Target="preferred_extensions_fiction" Default=".epub, .mobi, .azw3, .djvu" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">.epub, .mobi, .azw3, .djvu</Config>
