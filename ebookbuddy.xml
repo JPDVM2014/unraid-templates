@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ebookbuddy</Name>
+  <Repository>thewicklowwolf/ebookbuddy:latest</Repository>
+  <Registry>https://hub.docker.com/r/thewicklowwolf/eBookBuddy</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/#comment-1400719</Support>
+  <Project>https://github.com/TheWicklowWolf/eBookBuddy</Project>
+  <Overview>Web GUI for finding books that are similar to selected Readarr books.</Overview>
+  <Category>Tools: MediaApp:Books</Category>
+  <WebUI>http://[IP]:[PORT:5000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/icons/main/ebookbuddy.png</Icon>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1718677163</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="Config" Target="/ebookbuddy/config" Default="/mnt/user/appdata/ebookbuddy" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/ebookbuddy</Config>
+  <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="Readarr URL" Target="readarr_address" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">http://readarr:8787</Config>
+  <Config Name="Readarr API Key" Target="readarr_api_key" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Readarr Root Folder Path" Target="root_folder_path" Default="/data/media/books" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/data/media/books</Config>
+  <Config Name="Localtime" Target="/etc/localtime" Default="" Mode="ro" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/etc/localtime</Config>
+</Container>
