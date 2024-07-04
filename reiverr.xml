@@ -21,14 +21,9 @@
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
-  <Config Name="WebUI" Target="9494" Default="9494" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9494</Config>
-  <Config Name="Radarr API Key" Target="PUBLIC_RADARR_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">yourapikeyhere</Config>
-  <Config Name="Radarr URL" Target="PUBLIC_RADARR_BASE_URL" Default="http://127.0.0.1:7878" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Sonarr API Key" Target="PUBLIC_SONARR_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">yourapikeyhere</Config>
-  <Config Name="Sonarr URL" Target="PUBLIC_SONARR_BASE_URL" Default="http://127.0.0.1:8989" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Jellyfin API Key" Target="PUBLIC_JELLYFIN_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">yourapikeyhere</Config>
-  <Config Name="Jellyfin URL" Target="PUBLIC_JELLYFIN_URL" Default="http://127.0.0.1:8096" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="AppData" Target="/config" Default="/mnt/user/appdata/reiverr/" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Web UI Port" Target="9494" Default="9494" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9494</Config>
+  <Config Name="Config Path" Target="/config" Default="/mnt/user/appdata/reiverr" Mode="rw" Description="Where the config file will be stored" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/reiverr</Config>
+  <Config Name="JWT Secret" Target="SECRET" Default="your-very-long-and-mysterious-secret" Mode="" Description="Used to sign JWT tokens for authentication. If not set, sessions will not persist between server restarts. Use a random string." Type="Variable" Display="always" Required="false" Mask="true">your-very-long-and-mysterious-secret</Config>
+  <Config Name="Admin Username" Target="ADMIN_USERNAME" Default="admin" Mode="" Description="Default admin username. If not set, the first account created will be made an admin." Type="Variable" Display="always" Required="false" Mask="false">admin</Config>
+  <Config Name="Admin Password" Target="ADMIN_PASSWORD" Default="password" Mode="" Description="Default admin password. If not set, the first account created will be made an admin." Type="Variable" Display="always" Required="false" Mask="true">password</Config>
 </Container>
