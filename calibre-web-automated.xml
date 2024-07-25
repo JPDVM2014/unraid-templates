@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://github.com/crocodilestick/Calibre-Web-Automator</Project>
-  <Overview>A simple tool to give Calibre-Web the Auto-Import and Auto-Conversion Functionality. Fully automate and simplify your eBook set up. </Overview>
+  <Overview>A simple tool to give Calibre-Web the Auto-Import and Auto-Conversion Functionality of Calibre. Fully automate and simplify your eBook set up. </Overview>
   <Category>MediaApp:Books MediaServer:Books</Category>
   <WebUI>http://[IP]:[PORT:8083]</WebUI>
   <TemplateURL/>
@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1721874354</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="WebUI" Target="8083" Default="8083" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/calibre-web-automated" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/calibre-web-automated</Config>
