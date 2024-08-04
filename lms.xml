@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>lms</Name>
+  <Repository>epoupon/lms:latest</Repository>
+  <Registry>https://hub.docker.com/r/epoupon/lms</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/epoupon/lms</Project>
+  <Overview>LMS is a self-hosted music streaming software: access your music collection from anywhere using a web interface! &#xD;
+&#xD;
+Main features:&#xD;
+- Recommendation engine&#xD;
+- Multi-valued tags: genre, mood, artists, ...&#xD;
+- Artist relationships: composer, conductor, lyricist, mixer, performer, producer, remixer&#xD;
+- Release types: album, single, EP, compilation, live, ...&#xD;
+- MusicBrainz Identifier support to handle duplicated artist and release names&#xD;
+- ListenBrainz support for:&#xD;
+   - Scrobbling and synchronizing listens&#xD;
+   - Synchronizing 'love' feedbacks&#xD;
+- Audio transcoding for maximum interoperability and reduced bandwith requirements&#xD;
+- Multi-library support&#xD;
+- ReplayGain support&#xD;
+- User management, with several authentication backends&#xD;
+- Subsonic/OpenSubsonic API support&#xD;
+</Overview>
+  <Category>MediaApp:Music MediaServer:Music</Category>
+  <WebUI>http://[IP]:[PORT:5082]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/icons/main/lms.webp</Icon>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1722807892</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires>After install, in the Unraid terminal, cd to LMS config directory and run the below command to download the default config file. Make any needed changes and restart the container. &#xD;
+&#xD;
+wget https://raw.githubusercontent.com/epoupon/lms/master/conf/lms.conf</Requires>
+  <Config Name="WebUI" Target="5082" Default="5082" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5082</Config>
+  <Config Name="Music" Target="/music" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/music/</Config>
+  <Config Name="Appdata" Target="/var/lms" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lms</Config>
+  <Config Name="Config" Target="/etc/" Default="" Mode="ro" Description="Must download lms.conf from project's github." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lms/config/</Config>
+</Container>
