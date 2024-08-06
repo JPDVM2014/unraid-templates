@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://github.com/epoupon/lms</Project>
   <Overview>LMS is a self-hosted music streaming software: access your music collection from anywhere using a web interface! &#xD;
 &#xD;
@@ -33,14 +33,14 @@ Main features:&#xD;
   <ExtraParams>--user 99:100</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1722807892</DateInstalled>
+  <DateInstalled>1722904813</DateInstalled>
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
-  <Requires>After install, in the Unraid terminal, cd to LMS config directory and run the below command to download the default config file. Make any needed changes and restart the container. &#xD;
+  <Requires>If you need to customize the default config, after install, in the Unraid terminal, cd to LMS config directory and run the below command to download the default config file. Make any needed changes and restart the container. &#xD;
 &#xD;
 wget https://raw.githubusercontent.com/epoupon/lms/master/conf/lms.conf</Requires>
   <Config Name="WebUI" Target="5082" Default="5082" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5082</Config>
   <Config Name="Music" Target="/music" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/music/</Config>
   <Config Name="Appdata" Target="/var/lms" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lms</Config>
-  <Config Name="Config" Target="/etc/" Default="" Mode="ro" Description="Must download lms.conf from project's github." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lms/config/</Config>
+  <Config Name="Config" Target="/etc/" Default="" Mode="ro" Description="Only needed if you need to customize default config. Remove if not needed." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lms/config/</Config>
 </Container>
