@@ -19,11 +19,11 @@
   <CPUset/>
   <DateInstalled>1722908991</DateInstalled>
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
-<DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="WebUI" Target="7889" Default="7889" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7889</Config>
   <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">America/New_York</Config>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/trailarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/trailarr</Config>
-  <Config Name="Radarr Root" Target="/data/media/movies" Default="" Mode="rw" Description="Change host path to the folder where your media is stored.&#13;&#10;&#13;&#10;Change container path to Radarr's root folder." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/movies/</Config>
-  <Config Name="Sonarr Root" Target="/data/media/tv" Default="" Mode="rw" Description="Change host path to the folder where your media is stored.&#13;&#10;&#13;&#10;Change container path to Sonarr's root folder." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/media/tv/</Config>
+  <Config Name="Radarr Root" Target="/data/media/movies" Default="" Mode="rw" Description="Change host path to the folder where your media is stored. Change container path to Radarr's root folder." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/movies/</Config>
+  <Config Name="Sonarr Root" Target="/data/media/tv" Default="" Mode="rw" Description="Change host path to the folder where your media is stored. Change container path to Sonarr's root folder." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/media/tv/</Config>
 </Container>
