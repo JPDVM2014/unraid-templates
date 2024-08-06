@@ -33,7 +33,6 @@ Main features:&#xD;
   <ExtraParams>--user 99:100</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1722904813</DateInstalled>
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires>If you need to customize the default config, after install, in the Unraid terminal, cd to LMS config directory and run the below command to download the default config file. Make any needed changes and restart the container. &#xD;
