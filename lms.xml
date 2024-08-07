@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://github.com/epoupon/lms</Project>
-  <Overview>LMS is a self-hosted music streaming software: access your music collection from anywhere using a web interface! &#xD;
+  <Overview>Lightweight Music Server (LMS) is a self-hosted music streaming software: access your music collection from anywhere using a web interface! &#xD;
 &#xD;
 Main features:&#xD;
 - Recommendation engine&#xD;
