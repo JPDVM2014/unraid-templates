@@ -26,5 +26,5 @@
   <Config Name="Import Folder" Target="/cwa-book-ingest" Default="" Mode="rw" Description="ATTENTION &#x26A0;&#xFE0F; - All files within this folder will be DELETED after being processed. This folder should only be used to dump new books into for import and automatic conversion" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/books/import/</Config>
   <Config Name="Calibre Library" Target="/calibre-library" Default="" Mode="rw" Description="This should be bound to the folder that your metadata.db file resides within." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/books/</Config>
   <Config Name="Timezone" Target="TZ" Default="UTC" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">UTC</Config>
-  <Config Name="Docker Mods" Target="DOCKER_MODS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">linuxserver/mods:universal-calibre</Config>
+  <Config Name="Docker Mods" Target="DOCKER_MODS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">lscr.io/linuxserver/mods:universal-calibre-v7.16.0</Config>
 </Container>
