@@ -14,7 +14,7 @@
   <WebUI>http://[IP]:[PORT:5000]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/JPDVM2014/icons/f140eab75e20d8d91766ab49cac3a7c59b443aa5/bookbounty.png</Icon>
-  <ExtraParams>--user 99:100</ExtraParams>
+  <ExtraParams></ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1718669163</DateInstalled>
@@ -38,4 +38,6 @@
   <Config Name="Libgen URL" Target="libgen_address" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">https://libgen.is</Config>
   <Config Name="Selected Path Type" Target="selected_path_type" Default="file" Mode="" Description="Select download structure (file or folder)" Type="Variable" Display="advanced" Required="false" Mask="false">file</Config>
   <Config Name="Preferred Extension Non-Fiction" Target="preferred_extensions_non_fiction" Default=".pdf, .epub, .mobi, .azw3, .djvu" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">.pdf, .epub, .mobi, .azw3, .djvu</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
 </Container>
