@@ -27,4 +27,6 @@
   <Config Name="Calibre Library" Target="/calibre-library" Default="" Mode="rw" Description="This should be bound to the folder that your metadata.db file resides within." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/books/</Config>
   <Config Name="Timezone" Target="TZ" Default="UTC" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">UTC</Config>
   <Config Name="Docker Mods" Target="DOCKER_MODS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">lscr.io/linuxserver/mods:universal-calibre-v7.16.0</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
