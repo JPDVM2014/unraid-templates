@@ -7,6 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
+  <ReadMe>https://github.com/JPDVM2014/soularr</ReadMe>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
   <Project>https://soularr.net</Project>
   <Overview>A Python script that connects Lidarr with Soulseek! &#xD;
