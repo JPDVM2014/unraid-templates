@@ -23,7 +23,7 @@
   <Requires/>
   <Config Name="WebUI" Target="7889" Default="7889" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7889</Config>
   <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">America/New_York</Config>
-  <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/trailarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/docker_vm/appdata/trailarr</Config>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/trailarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/trailarr</Config>
   <Config Name="Radarr Root" Target="RADARR_ROOT_FOLDER" Default="" Mode="rw" Description="Change host path to the folder where your media is stored.&#13;&#10;&#13;&#10;Change container path to Radarr's root folder." Type="Path" Display="always" Required="true" Mask="false">LOCAL_MEDIA_FOLDER</Config>
   <Config Name="Sonarr Root" Target="SONARR_ROOT_FOLDER" Default="" Mode="rw" Description="Change host path to the folder where your media is stored.&#13;&#10;&#13;&#10;Change container path to Sonarr's root folder." Type="Path" Display="always" Required="false" Mask="false">LOCAL_MEDIA_FOLDER</Config>                                                                                                                                                                                                                                                                                                      
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
