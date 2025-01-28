@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ghostboard-server</Name>
+  <Repository>thehelpfulidiot/ghostboard-server</Repository>
+  <Registry>https://hub.docker.com/r/thehelpfulidiot/ghostboard-server</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://github.com/jon6fingrs/ghostboard</Project>
+  <Overview>Ghostboard is a lightweight, self-hosted solution for real-time synchronized text sharing. This repository includes a WebSocket server for syncing text across multiple clients and a command-line client for retrieving or updating the shared text.&#xD;
+&#xD;
+This project is aimed at self-hosters who want to quickly and easily share text between devices. There is no encryption or security&#x2014;it is not suitable for deployment on the internet or other untrusted networks. Ghostboard creates a simple webpage that accepts text, which is mirrored across all connected instances. A command-line client is also provided for interacting with the text without requiring a graphical interface.&#xD;
+Features&#xD;
+&#xD;
+    Server:&#xD;
+        Serves a webpage with a real-time synchronized text field.&#xD;
+        Clients see live updates as text is typed.&#xD;
+        Text remains synchronized across all connected clients.&#xD;
+        New Feature: Dynamically create multiple boards based on the URL path. Each unique subdirectory (e.g., /test or /example) hosts an independent board with its own synchronized text field.&#xD;
+&#xD;
+</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738028432</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Text Sync Port" Target="8765" Default="8765" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8765</Config>
+</Container>
