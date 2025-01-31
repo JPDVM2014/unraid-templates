@@ -24,7 +24,7 @@ Features&#xD;
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/jon6fingrs/ghostboard/main/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
