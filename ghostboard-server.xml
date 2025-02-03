@@ -32,6 +32,5 @@ Features&#xD;
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
-  <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Config Name="Text Sync Port" Target="8765" Default="8765" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8765</Config>
+  <Config Name="WebUI" Target="80" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
 </Container>
