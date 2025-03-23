@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>spotizerr</Name>
+  <Repository>cooldockerizer93/spotizerr</Repository>
+  <Registry>https://hub.docker.com/r/cooldockerizer93/spotizerr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://github.com/Xoconoch/spotizerr</Project>
+  <Overview>Music downloader which combines the best of two worlds: Spotify's catalog and Deezer's quality. Search for a track using Spotify search api, click download and, depending on your preferences, it will download directly from Spotify or firstly try to download from Deezer, if it fails, it'll fallback to Spotify.&#xD;
+&#xD;
+Setup Instructions: https://github.com/Xoconoch/spotizerr</Overview>
+  <Category>Downloaders: MediaApp:Music</Category>
+  <WebUI>http://[IP]:[PORT:7171]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://avatars.githubusercontent.com/u/93692082?s=48&amp;amp;v=4</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1742752686</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires>Requires separate Redis container</Requires>
+  <Config Name="Credentials" Target="/app/creds" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr/creds</Config>
+  <Config Name="Config" Target="/app/config" Default="/mnt/user/appdata/spotizerr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr</Config>
+  <Config Name="Music Library" Target="/app/downloads" Default="" Mode="rw" Description="Set to Mucic Library directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/downloads/</Config>
+  <Config Name="Logs" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr/logs</Config>
+  <Config Name="WebUI" Target="7171" Default="7171" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7171</Config>
+  <Config Name="REDIS_HOST" Target="REDIS_HOST" Default="redis" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">redis</Config>
+  <Config Name="REDIS_PORT" Target="REDIS_PORT" Default="6379" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">6379</Config>
+  <Config Name="REDIS_DB" Target="REDIS_DB" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">0</Config>
+  <Config Name="REDIS_URL" Target="REDIS_URL" Default="redis://redis:6379/0" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">redis://redis:6379/0</Config>
+  <Config Name="REDIS_BACKEND" Target="REDIS_BACKEND" Default="redis://redis:6379/0" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">redis://redis:6379/0</Config>
+  <Config Name="EXPLICIT_FILTER" Target="EXPLICIT_FILTER" Default="" Mode="" Description="Set to true to filter out explicit content" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="0022" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">0022</Config>
+</Container>
