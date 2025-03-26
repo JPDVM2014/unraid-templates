@@ -13,7 +13,7 @@
   <Category>Downloaders: MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:5656]/</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/JPDVM2014/kapowarr/main/Screenshot_20230524_213057_Firefox%20Nightly_x4.png</Icon>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/icons/refs/heads/main/kapowarr.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
