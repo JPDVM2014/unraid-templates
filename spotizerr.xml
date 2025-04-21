@@ -11,7 +11,7 @@
   <Project>https://github.com/Xoconoch/spotizerr</Project>
   <Overview>Music downloader which combines the best of two worlds: Spotify's catalog and Deezer's quality. Search for a track using Spotify search api, click download and, depending on your preferences, it will download directly from Spotify or firstly try to download from Deezer, if it fails, it'll fallback to Spotify.&#xD;
 &#xD;
-Setup Instructions: https://github.com/Xoconoch/spotizerr</Overview>
+Setup Instructions (READ THE FULL DOCS BEFORE USING): https://github.com/Xoconoch/spotizerr?tab=readme-ov-file#prerequisites</Overview>
   <Category>Downloaders: MediaApp:Music</Category>
   <WebUI>http://[IP]:[PORT:7171]/</WebUI>
   <TemplateURL/>
