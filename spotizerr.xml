@@ -23,8 +23,7 @@ Setup Instructions (READ THE FULL DOCS BEFORE USING): https://github.com/Xoconoc
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires>Requires separate Redis container</Requires>
-  <Config Name="Credentials" Target="/app/creds" Default="/mnt/user/appdata/spotizerr/creds" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr/creds</Config>
-  <Config Name="Config" Target="/app/config" Default="/mnt/user/appdata/spotizerr/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr</Config>
+  <Config Name="Config" Target="/app/data" Default="/mnt/user/appdata/spotizerr/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr</Config>
   <Config Name="Music Library" Target="/app/downloads" Default="" Mode="rw" Description="Set to Mucic Library directory" Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Logs" Target="/app/logs" Default="/mnt/user/appdata/spotizerr/logs" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr/logs</Config>
   <Config Name="WebUI" Target="7171" Default="7171" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7171</Config>
