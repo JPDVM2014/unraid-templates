@@ -35,11 +35,8 @@ Main features:&#xD;
   <CPUset/>
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
-  <Requires>If you need to customize the default config, after install, in the Unraid terminal, cd to LMS config directory and run the below command to download the default config file. Make any needed changes and restart the container. &#xD;
-&#xD;
-wget https://raw.githubusercontent.com/epoupon/lms/master/conf/lms.conf</Requires>
   <Config Name="WebUI" Target="5082" Default="5082" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5082</Config>
   <Config Name="Music" Target="/music" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/music/</Config>
   <Config Name="Appdata" Target="/var/lms" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lms</Config>
-  <Config Name="Config" Target="/etc/" Default="" Mode="ro" Description="Only needed if you need to customize default config. Remove if not needed." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lms/config/</Config>
+  <Config Name="Config" Target="/etc/" Default="" Mode="rw" Description="Only needed if you need to customize default config. Remove if not needed." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lms/config/</Config>
 </Container>
