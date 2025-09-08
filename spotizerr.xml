@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>spotizerr</Name>
-  <Repository>cooldockerizer93/spotizerr</Repository>
+  <Repository>lavaforge.org/spotizerr/spotizerr:latest</Repository>
   <Registry>https://hub.docker.com/r/cooldockerizer93/spotizerr</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
-  <Project>https://github.com/Xoconoch/spotizerr</Project>
+  <Project>https://lavaforge.org/spotizerr/spotizerr</Project>
   <Overview>Music downloader which combines the best of two worlds: Spotify's catalog and Deezer's quality. Search for a track using Spotify search api, click download and, depending on your preferences, it will download directly from Spotify or firstly try to download from Deezer, if it fails, it'll fallback to Spotify.&#xD;
 &#xD;
 Setup Instructions (READ THE FULL DOCS BEFORE USING): https://github.com/Xoconoch/spotizerr?tab=readme-ov-file#prerequisites</Overview>
