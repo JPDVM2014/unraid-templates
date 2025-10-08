@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>audiodeck</Name>
+  <Repository>casantosmu/audiodeck:latest</Repository>
+  <Registry>https://hub.docker.com/r/casantosmu/audiodeck</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/#comment-1400719</Support>
+  <Project>https://github.com/casantosmu/audiodeck</Project>
+  <Overview>A modern, self-hostable web spectrogram analyzer for your music library </Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:4747]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/icons/refs/heads/main/lms.webp</Icon>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1759950720</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="Media" Target="/media" Default="/path/to/your/music" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/path/to/your/music</Config>
+  <Config Name="WebUI" Target="4747" Default="4747" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4747</Config>
+  <TailscaleStateDir/>
+</Container>
