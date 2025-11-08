@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>journiv</Name>
   <Repository>swalabtech/journiv-app:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/swalabtech/journiv-app</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
