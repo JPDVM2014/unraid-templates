@@ -22,8 +22,8 @@
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires>Journiv is currently in beta and under active development. While the developers aims to keep data backward-compatible, breaking changes may still occur. Please keep regular backups of your data to avoid loss during updates.</Requires>
   <Config Name="WebUI" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
-  <Config Name="Secret Key" Target="SECRET_KEY" Default="" Mode="" Description="Replace with a strong secret key" Type="Variable" Display="always" Required="true" Mask="true"/>
-  <Config Name="Domain Name" Target="DOMAIN_NAME" Default="" Mode="" Description="Your server IP or domain" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Secret Key" Target="SECRET_KEY" Default="" Mode="" Description="Replace with a strong secret key. Use 'openssl rand -base64 32' in a terminal to create." Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Domain Name" Target="DOMAIN_NAME" Default="192.168.1.10" Mode="" Description="Your server IP or domain" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/journiv" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/journiv</Config>
   <TailscaleStateDir/>
 </Container>
