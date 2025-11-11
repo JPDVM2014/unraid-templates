@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>tasktrove</Name>
+  <Repository>ghcr.io/dohsimpson/tasktrove</Repository>
+  <Registry>https://github.com/dohsimpson/TaskTrove/pkgs/container/tasktrove</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://tasktrove.io/</Project>
+  <Overview>TaskTrove is a powerful, self-hosted task management application designed for individuals and teams who want advanced productivity features without compromising on data ownership.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/dohsimpson/TaskTrove/refs/heads/main/apps/web/app/icon1.png</Icon>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1762823042</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Appdata" Target="/app/data" Default="/mnt/user/appdata/tasktrove" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/tasktrove</Config>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="AUTH_SECRET" Target="AUTH_SECRET" Default="Your secret key - change me!" Mode="" Description="Remove this variable if you don't need authentication. " Type="Variable" Display="always" Required="false" Mask="false">Your secret key - change me!</Config>
+  <TailscaleStateDir/>
+</Container>
