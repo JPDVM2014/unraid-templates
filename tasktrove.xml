@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1762823042</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+    <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="Appdata" Target="/app/data" Default="/mnt/user/appdata/tasktrove" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/tasktrove</Config>
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
