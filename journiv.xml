@@ -25,5 +25,6 @@
   <Config Name="Secret Key" Target="SECRET_KEY" Default="" Mode="" Description="Replace with a strong secret key. Use 'openssl rand -base64 32' in a terminal to create." Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="Domain Name" Target="DOMAIN_NAME" Default="192.168.1.10" Mode="" Description="Your server IP or domain" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/journiv" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/journiv</Config>
+  <Config Name="Media" Target="/data/media" Default="" Mode="rw" Description="Store media on array. If you want it to stay on cache/appdata, delete this path" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/journiv/</Config>
   <TailscaleStateDir/>
 </Container>
