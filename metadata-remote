@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>metadata-remote</Name>
+  <Repository>ghcr.io/wow-signal-dev/metadata-remote:latest</Repository>
+  <Registry>https://github.com/wow-signal-dev/metadata-remote/pkgs/container/metadata-remote</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://github.com/wow-signal-dev/metadata-remote</Project>
+  <Overview>Edit metadata on headless servers (or anywhere else) via a clean web interface without complicated music library ecosystems, command line surgery, or file transfers &#x2014; just Docker, a browser, and zero setup. </Overview>
+  <Category>Tools: MediaApp:Music</Category>
+  <WebUI>http://[IP]:[PORT:8338]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/wow-signal-dev/metadata-remote/refs/heads/main/screenshots/mdrm-icon-for-light-bg.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1763078285</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">Your music directory</Config>
+  <Config Name="WebUI" Target="8338" Default="8338" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8338</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <TailscaleStateDir/>
+</Container>
