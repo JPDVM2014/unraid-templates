@@ -26,7 +26,10 @@ Setup Instructions (READ THE FULL DOCS BEFORE USING): https://spotizerr-phoenix.
 &#13;
 Must create .cache file before first run. Run this command in unraid terminal. Adjust to fit your appdata location. &#13;
 &#13;
-"mkdir -p /mnt/user/appdata/spotizerr-phoenix &amp;amp;&amp;amp; touch /mnt/user/appdata/spotizerr-phoenix/.cache &amp;amp;&amp;amp; chown -R 99:100 /mnt/user/appdata/spotizerr-phoenix"</Requires>
+"mkdir -p /mnt/user/appdata/spotizerr-phoenix &amp;amp;&amp;amp; touch /mnt/user/appdata/spotizerr-phoenix/.cache &amp;amp;&amp;amp; chown -R 99:100 /mnt/user/appdata/spotizerr-phoenix"
+  &#13;
+  Run this in unraid terminal after spotizerr is running to authorize Spotify account: "docker run --network=host --rm -it cooldockerizer93/spotizerr-auth
+"</Requires>
   <Config Name="Config" Target="/app/data" Default="/mnt/user/appdata/spotizerr/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr-phoenix</Config>
   <Config Name="Download Directory" Target="/app/downloads" Default="" Mode="rw" Description="Set to Mucic Library or other directory" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Logs" Target="/app/logs" Default="/mnt/user/appdata/spotizerr/logs" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/spotizerr-phoenix/logs</Config>
