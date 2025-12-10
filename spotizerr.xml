@@ -9,7 +9,9 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
   <Project>https://lavaforge.org/spotizerrphoenix/spotizerr-phoenix</Project>
-  <Overview>A self-hosted music download manager with a lossless twist. Download everything from Spotify, and if it happens to also be on Deezer, download from there so you get those tasty FLACs.&#13;
+  <Overview>NOTE: Must have prium Spotify account!
+&#13;
+A self-hosted music download manager with a lossless twist. Download everything from Spotify, and if it happens to also be on Deezer, download from there so you get those tasty FLACs.&#13;
 &#13;
 Setup Instructions (READ THE FULL DOCS BEFORE USING): https://spotizerr-phoenix.readthedocs.io/</Overview>
   <Category>Downloaders: MediaApp:Music</Category>
