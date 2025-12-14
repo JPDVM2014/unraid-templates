@@ -18,7 +18,7 @@ Setup Instructions (READ THE FULL DOCS BEFORE USING): https://spotizerr-phoenix.
   <WebUI>http://[IP]:[PORT:7171]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/JPDVM2014/unraid-templates/main/spotizerr.xml</TemplateURL>
   <Icon>https://lavaforge.org/avatars/54ed1adfaf177b28f725ef89a3c556eb87c90bee587362b2f1374f9444dd5d7c?size=512</Icon>
-  <ExtraParams>--user 99:100</ExtraParams>
+  <ExtraParams>--user 1000:1000</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1765119759</DateInstalled>
