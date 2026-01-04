@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>shelfarr</Name>
+  <Repository>vacantlycrushing/shelfarr:latest</Repository>
+  <Registry>https://hub.docker.com/r/vacantlycrushing/shelfarr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates/</Support>
+  <Project>https://github.com/VacantlyCrushing/Shelfarr</Project>
+  <Overview>Shelfarr is a state-aware audiobook renamer designed for long-lived libraries, not one-off cleanups. It remembers what it&#x2019;s seen, avoids re-asking old questions, and keeps your collection consistent across scans. Works with Audiobookshelf and support for EPUB renames is on the roadmap.&#13;
+&#13;
+No blind changes. No repeated prompts. Every action is previewable and reversible.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:5055]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/VacantlyCrushing/Shelfarr/refs/heads/master/docs/logo/shelfarr_logo.png</Icon>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1767543420</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="Appdata" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/shelfarr</Config>
+  <Config Name="Audiobook Library " Target="/library" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="WebUI" Target="5055" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5055</Config>
+  <TailscaleStateDir/>
+</Container>
