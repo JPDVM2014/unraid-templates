@@ -48,5 +48,7 @@ Main features&#13;
   <Config Name="Ingest Folder" Target="/app/ingest" Default="" Mode="rw" Description="Final books folder" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/media/booklore/import/</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <Config Name="ALLOWED_ORIGINS" Target="ALLOWED_ORIGINS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
+  <Config Name="BASE_URL" Target="BASE_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://localhost:8286</Config>
   <TailscaleStateDir/>
 </Container>
