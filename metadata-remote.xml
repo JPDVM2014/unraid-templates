@@ -18,7 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1767976942</DateInstalled>
-  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>        <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="WebUI" Target="8338" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8338</Config>
   <Config Name="Music Library" Target="/music" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
