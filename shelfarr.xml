@@ -16,7 +16,7 @@ No blind changes. No repeated prompts. Every action is previewable and reversibl
   <WebUI>http://[IP]:[PORT:5055]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/VacantlyCrushing/Shelfarr/refs/heads/master/docs/logo/shelfarr_logo.png</Icon>
-  <ExtraParams>--user 99:100</ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1767543420</DateInstalled>
