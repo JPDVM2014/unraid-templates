@@ -23,5 +23,6 @@
   <Requires/>
   <Config Name="Appdata" Target="/app/config" Default="/mnt/user/appdata/listenarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/listenarr</Config>
   <Config Name="WebUI" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="Library" Target="/data" Default="" Mode="rw" Description="NOTE: This mount MUST include wherever items are downloaded or else listenarr will not be able to move the files." Type="Path" Display="always" Required="true" Mask="false"></Config>
   <TailscaleStateDir/>
 </Container>
