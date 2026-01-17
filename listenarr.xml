@@ -23,7 +23,7 @@
   <Requires/>
   <Config Name="WebUI" Target="4545" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4545</Config>
   <Config Name="Appdata" Target="/app/config" Default="/mnt/user/appdata/listenarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/listenarr</Config>
-  <Config Name="Media Library" Target="/data" Default="" Mode="rw" Description="NOTE: This mount MUST include wherever items are downloaded or else listenarr will not be able to move the files." Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="For those who download to a different path from their media library. Delete if not needed" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Media Library" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <TailscaleStateDir/>
 </Container>
