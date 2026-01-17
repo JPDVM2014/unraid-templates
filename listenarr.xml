@@ -11,18 +11,19 @@
   <Project>https://github.com/therobbiedavis/Listenarr</Project>
   <Overview>Listenarr is a fast, feature-rich, cross-platform audiobook management server. Built with a focus on being a complete solution for all your audiobook downloading needs. Set up your own server and get ready to streamline your audiobook listening!</Overview>
   <Category>MediaApp:Other Status:Beta</Category>
-  <WebUI>http://[IP]:[PORT:5000]</WebUI>
+  <WebUI>http://[IP]:[PORT:4545]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/therobbiedavis/Listenarr/refs/heads/canary/.github/logo-icon.png</Icon>
   <ExtraParams>--user 99:100</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1763860666</DateInstalled>
+  <DateInstalled>1768610210</DateInstalled>
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
+  <Config Name="WebUI" Target="4545" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4545</Config>
   <Config Name="Appdata" Target="/app/config" Default="/mnt/user/appdata/listenarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/listenarr</Config>
-  <Config Name="WebUI" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
-  <Config Name="Library" Target="/data" Default="" Mode="rw" Description="NOTE: This mount MUST include wherever items are downloaded or else listenarr will not be able to move the files." Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Media Library" Target="/data" Default="" Mode="rw" Description="NOTE: This mount MUST include wherever items are downloaded or else listenarr will not be able to move the files." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="For those who download to a different path from their media library. Delete if not needed" Type="Path" Display="always" Required="false" Mask="false"/>
   <TailscaleStateDir/>
 </Container>
