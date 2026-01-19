@@ -14,7 +14,7 @@
   <WebUI>http://[IP]:[PORT:4545]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/therobbiedavis/Listenarr/refs/heads/canary/.github/logo-icon.png</Icon>
-  <ExtraParams>--user 99:100</ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1768610210</DateInstalled>
