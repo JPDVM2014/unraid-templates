@@ -20,9 +20,11 @@ It solves the critical infrastructure challenge of knowing exactly how many othe
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1767373102</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="PORT" Target="PORT" Default="3000" Mode="" Description="NOTE: If you change this value, you need to turn on advanced view and change the the port in WebUI." Type="Variable" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="ENABLE_CHAT" Target="ENABLE_CHAT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="ENABLE_MAP" Target="ENABLE_MAP" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <TailscaleStateDir/>
 </Container>
