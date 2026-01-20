@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>sonobarr</Name>
+  <Repository>ghcr.io/dodelidoo-labs/sonobarr:latest</Repository>
+  <Registry>https://github.com/Dodelidoo-Labs/sonobarr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
+  <Project>https://github.com/Dodelidoo-Labs/sonobarr</Project>
+  <Overview>Music discovery for Lidarr power users, blending Last.fm insights, ListenBrainz playlists, and a modern web UI.</Overview>
+  <Category>MediaApp:Music</Category>
+  <WebUI>http://[IP]:[PORT:5000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Dodelidoo-Labs/sonobarr/refs/heads/main/src/static/favicon-192x192.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1768883801</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="Appdata" Target="/sonobarr/config" Default="/mnt/user/appdata/sonobarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/sonobarr</Config>
+  <Config Name="Localtime" Target="/etc/localtime" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/etc/localtime</Config>
+  <Config Name="SECRET_KEY" Target="SECRET_KEY" Default="" Mode="" Description="Flask session signing key. Must be a long random string." Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="SONOBARR_SUPERADMIN_USERNAME" Target="SONOBARR_SUPERADMIN_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
+  <Config Name="SONOBARR_SUPERADMIN_PASSWORD" Target="SONOBARR_SUPERADMIN_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">change-me</Config>
+  <Config Name="SONOBARR_SUPERADMIN_DISPLAY_NAME" Target="SONOBARR_SUPERADMIN_DISPLAY_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Admin</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <TailscaleStateDir/>
+</Container>
+
