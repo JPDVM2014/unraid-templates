@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>aurral</Name>
+  <Repository>ghcr.io/lklynet/aurral:latest</Repository>
+  <Registry>https://github.com/lklynet/aurral/pkgs/container/aurral</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
+  <Project>https://github.com/lklynet/aurral</Project>
+  <Overview>Self-hosted music discovery and request management for Lidarr with library-aware recommendations, granular monitoring controls, and optional Weekly Flow playlists powered by Soulseek + Navidrome.</Overview>
+  <Category>Downloaders: MediaApp:Music</Category>
+  <WebUI>http://[IP]:[PORT:3001]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/lklynet/aurral/main/frontend/public/arralogo.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1771897491</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="3001" Default="3001" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3001</Config>
+  <Config Name="Appdata" Target="/app/backend/data" Default="/mnt/user/appdata/aurral" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/aurral</Config>
+  <Config Name="Weekly Flow Downloads" Target="/app/downloads" Default="" Mode="rw" Description="Where weekly flow will download. Delete if not needed." Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="DOWNLOAD_FOLDER" Target="DOWNLOAD_FOLDER" Default="" Mode="" Description="Must match host path from Weekly Flow Downloads directory above. Delete if not needed." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
+  <TailscaleStateDir/>
+</Container>
