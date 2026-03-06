@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>listenarr</Name>
-  <Repository>ghcr.io/therobbiedavis/listenarr:canary</Repository>
-  <Registry>https://github.com/therobbiedavis/Listenarr</Registry>
+  <Repository>ghcr.io/listenarrs/listenarr:canary</Repository>
+  <Registry>https://github.com/Listenarrs/Listenarr</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
-  <Project>https://github.com/therobbiedavis/Listenarr</Project>
+  <Project>https://github.com/Listenarrs/Listenarr</Project>
   <Overview>Listenarr is a fast, feature-rich, cross-platform audiobook management server. Built with a focus on being a complete solution for all your audiobook downloading needs. Set up your own server and get ready to streamline your audiobook listening!</Overview>
   <Category>MediaApp:Other Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:4545]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/therobbiedavis/Listenarr/refs/heads/canary/.github/logo-icon.png</Icon>
+  <Icon>https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/listenarr.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -23,7 +23,7 @@
   <Requires/>
   <Config Name="WebUI" Target="4545" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4545</Config>
   <Config Name="Appdata" Target="/app/config" Default="/mnt/user/appdata/listenarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/listenarr</Config>
-  <Config Name="Media Library" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Audiobooks" Target="/audiobooks" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <TailscaleStateDir/>
 </Container>
