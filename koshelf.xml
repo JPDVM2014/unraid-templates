@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>koshelf</Name>
+  <Repository>ghcr.io/devtigro/koshelf:latest</Repository>
+  <Registry>https://github.com/devtigro/koshelf-docker/pkgs/container/koshelf</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
+  <Project>https://github.com/paviro/KoShelf</Project>
+  <ReadMe>https://github.com/DevTigro/koshelf-docker</ReadMe>
+  <Overview>Unofficial Docker image for KoShelf.&#13;
+All your KOReader notes &amp;amp; highlights combined into a beautiful reading dashboard with statistics.&#13;
+&#13;
+KoShelf - All your KOReader notes &amp;amp; highlights combined into a beautiful reading dashboard with statistics. </Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/koshelf.png</Icon>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1772925220</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="KOReader Books Folder" Target="/books" Default="" Mode="ro" Description="Must be a books folder created by KOreader. Not your regular book library." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="KOReader Settings Folder" Target="/settings" Default="" Mode="ro" Description="Folder that contains your KOReader settings" Type="Path" Display="always" Required="true" Mask="false"/>
+  <TailscaleStateDir/>
+</Container>
