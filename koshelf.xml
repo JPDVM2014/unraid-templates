@@ -22,8 +22,8 @@ KoShelf - All your KOReader notes &amp;amp; highlights combined into a beautiful
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1772925220</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="KOReader Books Folder" Target="/books" Default="" Mode="ro" Description="Must be a books folder created by KOreader. Not your regular book library." Type="Path" Display="always" Required="true" Mask="false"/>
