@@ -25,6 +25,7 @@ KoShelf - All your KOReader notes &amp;amp; highlights combined into a beautiful
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires/>
+  <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/koshelf" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/koshelf</Config>
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="KOReader Books Folder" Target="/books" Default="" Mode="ro" Description="Must be a books folder created by KOreader. Not your regular book library." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="KOReader Settings Folder" Target="/settings" Default="" Mode="ro" Description="Folder that contains your KOReader settings" Type="Path" Display="always" Required="true" Mask="false"/>
