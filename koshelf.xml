@@ -18,7 +18,7 @@ KoShelf - All your KOReader notes &amp;amp; highlights combined into a beautiful
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <TemplateURL/>
   <Icon>https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/koshelf.png</Icon>
-  <ExtraParams>--user 99:100</ExtraParams>
+  <ExtraParams>--user 1000:1000</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1772925220</DateInstalled>
