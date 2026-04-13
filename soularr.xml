@@ -20,7 +20,7 @@ NOTE: Read through https://github.com/JPDVM2014/soularr before installing templa
   <WebUI/>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/mrusse/soularr/refs/heads/main/resources/logo.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>--user 99:100</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1735240924</DateInstalled>
@@ -31,6 +31,4 @@ NOTE: Read through https://github.com/JPDVM2014/soularr before installing templa
   <Config Name="Run Interval" Target="SCRIPT_INTERVAL" Default="300" Mode="" Description="Run interval in seconds" Type="Variable" Display="always" Required="true" Mask="false">300</Config>
   <Config Name="SLSKD Download Dir" Target="/downloads" Default="/mnt/user/slskd/downloads" Mode="rw" Description="Set to directory where Slskd downloads are stored." Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Appdata" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/soularr</Config>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 </Container>
