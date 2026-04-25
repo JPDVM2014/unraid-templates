@@ -17,7 +17,7 @@ Soularr reads all of your "wanted" albums/artists from Lidarr and downloads them
 NOTE: Read through https://github.com/JPDVM2014/soularr before installing template!&#xD;
 </Overview>
   <Category>Downloaders: MediaApp:Music</Category>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:8265]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/mrusse/soularr/refs/heads/main/resources/logo.png</Icon>
   <ExtraParams>--user 99:100</ExtraParams>
@@ -27,6 +27,7 @@ NOTE: Read through https://github.com/JPDVM2014/soularr before installing templa
   <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
   <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
   <Requires>Lidarr, Slskd</Requires>
+  <Config Name="WebUI" Target="8265" Default="8265" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8265</Config>
   <Config Name="Timezone" Target="TZ" Default="Etc/UTC" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">America/New_York</Config>
   <Config Name="Run Interval" Target="SCRIPT_INTERVAL" Default="300" Mode="" Description="Run interval in seconds" Type="Variable" Display="always" Required="true" Mask="false">300</Config>
   <Config Name="SLSKD Download Dir" Target="/downloads" Default="/mnt/user/slskd/downloads" Mode="rw" Description="Set to directory where Slskd downloads are stored." Type="Path" Display="always" Required="false" Mask="false"/>
