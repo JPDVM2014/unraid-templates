@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>umami</Name>
-  <Repository>docker.umami.dev/umami-software/umami:postgresql-latest</Repository>
+  <Repository>docker.umami.is/umami-software/umami:postgresql-latest</Repository>
   <Registry>https://github.com/umami-software/umami/pkgs/container/umami</Registry>
   <Network>bridge</Network>
   <MyIP/>
