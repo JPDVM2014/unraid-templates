@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>libsync</Name>
+  <Repository>ghcr.io/arthursoares/libsync:latest</Repository>
+  <Registry>https://github.com/arthursoares/libsync</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
+  <Project>https://github.com/arthursoares/libsync</Project>
+  <ReadMe/>
+  <Overview>A self-hosted web UI for managing and downloading your Qobuz and Tidal music libraries.&#13;
+&#13;
+Runs as a small FastAPI + SvelteKit server in Docker (or locally) and is accessed through any browser. It syncs your streaming-service favorites into a local database, lets you search and trigger downloads with live progress, and organizes the files on disk with your preferred folder/track templates. Both Qobuz and Tidal go through standalone async Python SDKs (consumed as a git submodule) &#x2014; no CLI, no TOML config, no hidden state.</Overview>
+  <Category>MediaApp:Music</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1779408942</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Where downloaded music is stored." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/libsync" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/libsync</Config>
+  <Config Name="STREAMRIP_DB_PATH" Target="STREAMRIP_DB_PATH" Default="/data/streamrip.db" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">/data/streamrip.db</Config>
+  <TailscaleStateDir/>
+</Container>
