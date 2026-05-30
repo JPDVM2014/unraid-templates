@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>hypermind-swarm</Name>
+  <Repository>ghcr.io/lklynet/hypermind-swarm:latest</Repository>
+  <Registry/>
+  <Network>host</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
+  <Project>https://github.com/lklynet/hypermind-swarm</Project>
+  <ReadMe/>
+  <Overview>Hypermind-Swarm is a peer-to-peer, Twitter-style social platform built for decentralized and ephemeral conversations. It's a fork of the original Hypermind project, evolving from a simple deployment counter into a full-fledged communication swarm.</Overview>
+  <Category>Other: Network:Messenger</Category>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JPDVM2014/icons/refs/heads/main/hypermind.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1780102248</DateInstalled>
+  <DonateText>If you find this template useful, I’d love a coffee!</DonateText>
+  <DonateLink>https://bmc.link/JPDVM2014</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="PORT" Target="PORT" Default="3000" Mode="" Description="WebUI port. If you change this variable, you must change the webui port to match." Type="Variable" Display="always" Required="false" Mask="false">3000</Config>
+  <TailscaleStateDir/>
+</Container>
