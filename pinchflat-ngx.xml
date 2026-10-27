@@ -10,7 +10,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/122788-support-jpdvm2014-templates</Support>
   <Project>https://github.com/TheBadFella/Pinchflat-NGX</Project>
-  <ReadMe>This is a basic minimal setup. For advanced configuration, check the project's github: https://github.com/TheBadFella/Pinchflat-NGX</ReadMe>
+  <ReadMe>Minimal container setup for Pinchflat-NGX. See the upstream project documentation for configuration options.</ReadMe>
   <Overview>An enhanced, self-hosted YouTube media manager built on Pinchflat with Material 3 AMOLED UI, PostgreSQL support, OIDC SSO, and disk staging.</Overview>
   <Category>MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:8945]/</WebUI>
