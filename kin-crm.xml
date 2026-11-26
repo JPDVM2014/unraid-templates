@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>kin-crm</Name>
-  <Repository>ghcr.io/jpdvm2014/kin-crm-docker</Repository>
+  <Repository>ghcr.io/ock666/kin-crm:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
